@@ -1,0 +1,20 @@
+.main-nav {
+  background-color: #1a8cd8;
+  color: #fff;
+  .brand {
+    font-weight: 700;
+    line-height: 48.41px;
+    font-size: 40px;
+  }
+  .nav {
+    .nav-link {
+      color: #fff;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 36.31px;
+      &.active {
+        font-weight: 700;
+      }
+    }
+  }
+}
